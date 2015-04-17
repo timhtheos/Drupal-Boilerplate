@@ -1,0 +1,7 @@
+##
+# Config for install dialog
+#
+##
+
+dialog:
+  title: Elephant Ventures Site Install

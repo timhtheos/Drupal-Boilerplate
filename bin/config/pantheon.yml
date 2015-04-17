@@ -1,0 +1,20 @@
+##
+# Pantheon config file
+#
+# This overrides the default config file
+#
+##
+
+pantheon: null
+  email:
+  pswd:
+  site:
+
+# This overrides default config
+install: null
+  
+  # Drupal default theme
+  theme: bartik
+    
+  # Drupal config feature module
+  config_module:

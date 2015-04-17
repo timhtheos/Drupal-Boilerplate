@@ -1,0 +1,42 @@
+##
+# Config file
+#
+# 1. Do no provide value for all variables having null value
+# 2. A variable having an empty value will not return a variable
+#
+##
+
+display_config_vars: 1
+
+install: null
+
+  # Server: acquia, pantheon, custom
+  server: custom
+
+  # Drupal installation profile name
+  profile: standard
+
+  # Drupal account, login
+  account: null
+    mail: elephants@elephantventures.com
+    name: admin
+    pass: elephant
+
+  # Drupal database
+  db: null
+    name:
+    prefix:
+    host: localhost
+    su:
+      pw:
+
+  # Drupal system settings
+  mail: elephants@elephantventures.com
+  name: EV
+  subdir: default
+
+  # Drupal default theme
+  theme: bartik
+
+  # Drupal config feature module
+  config_module:
