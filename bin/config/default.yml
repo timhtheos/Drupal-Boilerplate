@@ -6,7 +6,7 @@
 #
 ##
 
-display_config_vars: 1
+display_config_vars: 0
 
 install: null
 
